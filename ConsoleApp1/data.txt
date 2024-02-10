@@ -1,0 +1,496 @@
+﻿{
+    "success": true,
+    "categories": {
+        "1-": {
+            "level": 1,
+            "name": "カテゴリ",
+            "code": "1-",
+            "sort_num": 1,
+            "children": {
+                "1-19-": {
+                    "level": 2,
+                    "name": "テストA（第2階層）",
+                    "code": "1-19-",
+                    "sort_num": 2,
+                    "children": {
+                        "1-19-1-": {
+                            "level": 3,
+                            "name": "テストA：Movie（第3階層）",
+                            "code": "1-19-1-",
+                            "sort_num": 1,
+                            "children": {
+                                "1-19-1-1-": {
+                                    "level": 4,
+                                    "name": "テストA：Movie（第4階層）",
+                                    "code": "1-19-1-1-",
+                                    "sort_num": 1
+                                },
+                                "1-19-1-2-": {
+                                    "level": 4,
+                                    "name": "テストAB：Movie（第4階層）",
+                                    "code": "1-19-1-2-",
+                                    "sort_num": 2
+                                }
+                            }
+                        },
+                        "1-19-2-": {
+                            "level": 3,
+                            "name": "テストA1：Movie（第3階層）",
+                            "code": "1-19-2-",
+                            "sort_num": 2,
+                            "children": {
+                                "1-19-2-1-": {
+                                    "level": 4,
+                                    "name": "テストA1（第4階層）",
+                                    "code": "1-19-2-1-",
+                                    "sort_num": 1
+                                },
+                                "1-19-2-2-": {
+                                    "level": 4,
+                                    "name": "テストA1B（第4階層）",
+                                    "code": "1-19-2-2-",
+                                    "sort_num": 2
+                                }
+                            }
+                        }
+                    }
+                },
+                "1-20-": {
+                    "level": 2,
+                    "name": "テストB（第2階層）",
+                    "code": "1-20-",
+                    "sort_num": 3,
+                    "children": {
+                        "1-20-1-": {
+                            "level": 3,
+                            "name": "テストB：Movie（第3階層）",
+                            "code": "1-20-1-",
+                            "sort_num": 1,
+                            "children": {
+                                "1-20-1-1-": {"level": 4,
+                                    "name": "テストB：Movie（第4階層）",
+                                    "code": "1-20-1-1-",
+                                    "sort_num": 1
+                                }
+                            }
+                        }
+                    }
+                },
+                "1-21-": {
+                    "level": 2,
+                    "name": "テストC（第2階層）",
+                    "code": "1-21-",
+                    "sort_num": 4,
+                    "children": {
+                        "1-21-1-": {
+                            "level": 3,
+                            "name": "テストC：Movie（第3階層）",
+                            "code": "1-21-1-",
+                            "sort_num": 1,
+                            "children": {
+                                "1-21-1-1-": {
+                                    "level": 4,
+                                    "name": "テストC：Movie（第4階層）",
+                                    "code": "1-21-1-1-",
+                                    "sort_num": 1
+                                }
+                            }
+                        }
+                    }
+                },
+                "1-8-": {
+                    "level": 2,
+                    "name": "タケ：サイト(2a)",
+                    "code": "1-8-",
+                    "sort_num": 5,
+                    "children": {
+                        "1-8-1-": {
+                            "level": 3,
+                            "name": "タケ：Movie(3aa)",
+                            "code": "1-8-1-",
+                            "sort_num": 1,
+                            "children": {
+                                "1-8-1-1-": {
+                                    "level": 4,
+                                    "name": "タケ：Movie(4aaa)",
+                                    "code": "1-8-1-1-",
+                                    "sort_num": 1
+                                },
+                                "1-8-1-2-": {
+                                    "level": 4,
+                                    "name": "タケ：Movie(4aab)",
+                                    "code": "1-8-1-2-",
+                                    "sort_num": 2
+                                },
+                                "1-8-1-3-": {
+                                    "level": 4,
+                                    "name": "タケ：Movie(4aac)",
+                                    "code": "1-8-1-3-",
+                                    "sort_num": 3
+                                }
+                            }
+                        },
+                        "1-8-2-": {
+                            "level": 3,
+                            "name": "タケ：Movie(3ab)",
+                            "code": "1-8-2-",
+                            "sort_num": 2,"children": {
+                                "1-8-2-1-": {
+                                    "level": 4,
+                                    "name": "タケ：Movie(4aba)",
+                                    "code": "1-8-2-1-",
+                                    "sort_num": 1
+                                },
+                                "1-8-2-2-": {
+                                    "level": 4,
+                                    "name": "タケ：Movie(4abb)",
+                                    "code": "1-8-2-2-",
+                                    "sort_num": 2
+                                },
+                                "1-8-2-3-": {
+                                    "level": 4,
+                                    "name": "タケ：Movie(4abc)",
+                                    "code": "1-8-2-3-",
+                                    "sort_num": 3
+                                }
+                            }
+                        },
+                        "1-8-3-": {
+                            "level": 3,
+                            "name": "タケ：Movie(3ac)",
+                            "code": "1-8-3-",
+                            "sort_num": 3,
+                            "children": {
+                                "1-8-3-1-": {
+                                    "level": 4,
+                                    "name": "タケ：Movie(4aca)",
+                                    "code": "1-8-3-1-",
+                                    "sort_num": 1
+                                },
+                                "1-8-3-2-": {
+                                    "level": 4,
+                                    "name": "タケ：Movie(4acb)",
+                                    "code": "1-8-3-2-",
+                                    "sort_num": 2
+                                },
+                                "1-8-3-3-": {
+                                    "level": 4,
+                                    "name": "タケ：Movie(4acc)",
+                                    "code": "1-8-3-3-",
+                                    "sort_num": 3
+                                }
+                            }
+                        }
+                    }
+                },
+                "1-9-": {
+                    "level": 2,
+                    "name": "タケ：サイト(2b)",
+                    "code": "1-9-",
+                    "sort_num": 6,
+                    "children": {
+                        "1-9-1-": {
+                            "level": 3,
+                            "name": "タケ：Movie(3ba)",
+                            "code": "1-9-1-",
+                            "sort_num": 1,
+                            "children": {
+                                "1-9-1-1-": {
+                                    "level": 4,"name": "タケ：Movie(4baa)",
+                                    "code": "1-9-1-1-",
+                                    "sort_num": 1
+                                }
+                            }
+                        }
+                    }
+                },
+                "1-10-": {
+                    "level": 2,
+                    "name": "タケ：サイト(2c)",
+                    "code": "1-10-",
+                    "sort_num": 7,
+                    "children": {
+                        "1-10-1-": {
+                            "level": 3,
+                            "name": "タケ：Movie(3ca)",
+                            "code": "1-10-1-",
+                            "sort_num": 1,
+                            "children": {
+                                "1-10-1-1-": {
+                                    "level": 4,
+                                    "name": "タケ：Movie(4caa)",
+                                    "code": "1-10-1-1-",
+                                    "sort_num": 1
+                                }
+                            }
+                        }
+                    }
+                },
+                "1-14-": {
+                    "level": 2,
+                    "name": "Revit",
+                    "code": "1-14-",
+                    "sort_num": 11,
+                    "children": {
+                        "1-14-1-": {
+                            "level": 3,
+                            "name": "モデリング",
+                            "code": "1-14-1-",
+                            "sort_num": 1,
+                            "children": {
+                                "1-14-1-1-": {
+                                    "level": 4,
+                                    "name": "基本操作",
+                                    "code": "1-14-1-1-",
+                                    "sort_num": 1
+                                },
+                                "1-14-1-2-": {
+                                    "level": 4,
+                                    "name": "Tips",
+                                    "code": "1-14-1-2-",
+                                    "sort_num": 2
+                                }
+                            }
+                        },
+                        "1-14-2-": {
+                            "level": 3,
+                            "name": "図面化",
+                            "code": "1-14-2-",
+                            "sort_num": 2,
+                            "children": {
+                                "1-14-2-1-": {
+                                    "level": 4,
+                                    "name": "基本操作",
+                                    "code": "1-14-2-1-",
+                                    "sort_num": 1
+                                },"1-14-2-2-": {
+                                    "level": 4,
+                                    "name": "Tips",
+                                    "code": "1-14-2-2-",
+                                    "sort_num": 2
+                                }
+                            }
+                        },
+                        "1-14-3-": {
+                            "level": 3,
+                            "name": "BIM fan!プラグイン",
+                            "code": "1-14-3-",
+                            "sort_num": 3,
+                            "children": {
+                                "1-14-3-1-": {
+                                    "level": 4,
+                                    "name": "BIM fan!コンテンツ",
+                                    "code": "1-14-3-1-",
+                                    "sort_num": 1
+                                },
+                                "1-14-3-2-": {
+                                    "level": 4,
+                                    "name": "確認申請",
+                                    "code": "1-14-3-2-",
+                                    "sort_num": 2
+                                },
+                                "1-14-3-3-": {
+                                    "level": 4,
+                                    "name": "機能拡張",
+                                    "code": "1-14-3-3-",
+                                    "sort_num": 3
+                                }
+                            }
+                        }
+                    }
+                },
+                "1-15-": {
+                    "level": 2,
+                    "name": "Archicad",
+                    "code": "1-15-",
+                    "sort_num": 12,
+                    "children": {
+                        "1-15-1-": {
+                            "level": 3,
+                            "name": "モデリング",
+                            "code": "1-15-1-",
+                            "sort_num": 1,
+                            "children": {
+                                "1-15-1-1-": {
+                                    "level": 4,
+                                    "name": "基本操作",
+                                    "code": "1-15-1-1-",
+                                    "sort_num": 1
+                                }
+                            }
+                        },
+                        "1-15-2-": {
+                            "level": 3,
+                            "name": "図面化",
+                            "code": "1-15-2-",
+                            "sort_num": 2,
+                            "children": {
+                                "1-15-2-1-": {
+                                    "level": 4,
+                                    "name": "基本操作","code": "1-15-2-1-",
+                                    "sort_num": 1
+                                }
+                            }
+                        }
+                    }
+                },
+                "1-1-": {
+                    "level": 2,
+                    "name": "Cat A",
+                    "code": "1-1-",
+                    "sort_num": 13,
+                    "children": {
+                        "1-1-1-": {
+                            "level": 3,
+                            "name": "Movie CatA 1",
+                            "code": "1-1-1-",
+                            "sort_num": 1,
+                            "children": {
+                                "1-1-1-2-": {
+                                    "level": 4,
+                                    "name": "Movie CatA 1-1",
+                                    "code": "1-1-1-2-",
+                                    "sort_num": 1
+                                },
+                                "1-1-1-1-": {
+                                    "level": 4,
+                                    "name": "Movie CatA 1-2",
+                                    "code": "1-1-1-1-",
+                                    "sort_num": 2
+                                }
+                            }
+                        }
+                    }
+                },
+                "1-2-": {
+                    "level": 2,
+                    "name": "Cat B",
+                    "code": "1-2-",
+                    "sort_num": 14,
+                    "children": {
+                        "1-2-1-": {
+                            "level": 3,
+                            "name": "Cat B1",
+                            "code": "1-2-1-",
+                            "sort_num": 1,
+                            "children": {
+                                "1-2-1-1-": {
+                                    "level": 4,
+                                    "name": "Cat B1-1",
+                                    "code": "1-2-1-1-",
+                                    "sort_num": 1
+                                },
+                                "1-2-1-2-": {
+                                    "level": 4,
+                                    "name": "Cat B1-2",
+                                    "code": "1-2-1-2-",
+                                    "sort_num": 2
+                                }
+                            }
+                        },
+                        "1-2-2-": {
+                            "level": 3,
+                            "name": "Cat B2",
+                            "code": "1-2-2-",
+                            "sort_num": 2,"children": {
+                                "1-2-2-1-": {
+                                    "level": 4,
+                                    "name": "Cat B2-1",
+                                    "code": "1-2-2-1-",
+                                    "sort_num": 1
+                                }
+                            }
+                        }
+                    }
+                },
+                "1-5-": {
+                    "level": 2,
+                    "name": "よ：カテ①",
+                    "code": "1-5-",
+                    "sort_num": 16,
+                    "children": {
+                        "1-5-1-": {
+                            "level": 3,
+                            "name": "よ：movieカテ①-1",
+                            "code": "1-5-1-",
+                            "sort_num": 1,
+                            "children": {
+                                "1-5-1-1-": {
+                                    "level": 4,
+                                    "name": "よ：movieカテ①-1-1",
+                                    "code": "1-5-1-1-",
+                                    "sort_num": 1
+                                }
+                            }
+                        }
+                    }
+                },
+                "1-6-": {
+                    "level": 2,
+                    "name": "よ：カテ②",
+                    "code": "1-6-",
+                    "sort_num": 17,
+                    "children": {
+                        "1-6-1-": {
+                            "level": 3,
+                            "name": "よ：movieカテ②-1",
+                            "code": "1-6-1-",
+                            "sort_num": 1,
+                            "children": {
+                                "1-6-1-1-": {
+                                    "level": 4,
+                                    "name": "よ：movieカテ②-1-1",
+                                    "code": "1-6-1-1-",
+                                    "sort_num": 1
+                                }
+                            }
+                        }
+                    }
+                },
+                "1-7-": {
+                    "level": 2,
+                    "name": "よ：カテ③",
+                    "code": "1-7-",
+                    "sort_num": 18,
+                    "children": {
+                        "1-7-1-": {
+                            "level": 3,
+                            "name": "よ：movieカテ③-1",
+                            "code": "1-7-1-",
+                            "sort_num": 1,"children": {
+                                "1-7-1-1-": {
+                                    "level": 4,
+                                    "name": "よ：movieカテ③-1-1",
+                                    "code": "1-7-1-1-",
+                                    "sort_num": 1
+                                }
+                            }
+                        }
+                    }
+                },
+                "1-11-": {
+                    "level": 2,
+                    "name": "タケ：（100文字テスト）（100文字テスト）（100文字テスト）（100文字テスト）（100文字テスト）（100文字テスト）（100文字テスト）（100文字テスト）（100文字テスト）（100文字テスト）",
+                    "code": "1-11-",
+                    "sort_num": 19,
+                    "children": {
+                        "1-11-1-": {
+                            "level": 3,
+                            "name": "（100文字テスト）（100文字テスト）（100文字テスト）（100文字テスト）（100文字テスト）（100文字テスト）（100文字テスト）（100文字テスト）（100文字テスト）（100文字テスト）（100文字テスト）（100文字テスト）（100文字テスト）（100文字テスト）（100文字テスト）（100文字テスト）（100文字テスト）（100文字テスト）（100文字テスト）（100文字テスト）",
+                            "code": "1-11-1-",
+                            "sort_num": 1,
+                            "children": {
+                                "1-11-1-1-": {
+                                    "level": 4,
+                                    "name": "（200文字テスト）（200文字テスト）（200文字テスト）（200文字テスト）（200文字テスト）（200文字テスト）（200文字テスト）（200文字テスト）（200文字テスト）（200文字テスト）（200文字テスト）（200文字テスト）（200文字テスト）（200文字テスト）（200文字テスト）（200文字テスト）（200文字テスト）（200文字テスト）（200文字テスト）（200文字テスト）",
+                                    "code": "1-11-1-1-",
+                                    "sort_num": 1
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
