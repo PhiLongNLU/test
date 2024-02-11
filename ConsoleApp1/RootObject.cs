@@ -27,17 +27,20 @@ namespace ConsoleApp1
 
         private Category DFS(Category Category, string searchData)
         {
+       
             if (Category.code.Equals(searchData))
             {
                 return Category;
             }
-
-            foreach (var child in Category.children.Values)
+            if(Category.children != null)
             {
-                var result = DFS(child , searchData);
-                if (result != null)
+                foreach (var child in Category.children.Values)
                 {
-                    return result;
+                    var result = DFS(child, searchData);
+                    if (result != null)
+                    {
+                        return result;
+                    }
                 }
             }
             return null;
