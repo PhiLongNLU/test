@@ -12,10 +12,12 @@ namespace ConsoleApp1
        public string name { get; set; }
        public string code { get; set; }
        public int sort_num { get; set; }
-       public IDictionary<string,Category> children { get; set; }
-        public override string ToString()
+       public Dictionary<string,Category> children { get; set; }
+
+        public string toString()
         {
-            return $"level : {level}, name : {name}, code : {code}, sort_num: {sort_num}, children : {children.ToString()}";
+            return $"name : {name} , code : {code}";
         }
+
     }
 }

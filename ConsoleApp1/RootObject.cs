@@ -8,50 +8,40 @@ namespace ConsoleApp1
 {
     public class RootObject
     {
-        public bool success { get; set; }
-        public Dictionary<string , Category> categories { get; set; }
-        public override string ToString() => $"success : {success} , categories : {categories.ToList().ToString()}";
+        public bool Success { get; set; }
+        public Dictionary<string ,Category> Categories { get; set; }
 
-        public Category search(string code)
+        public Category Search(string searchData)
         {
             Category result = null;
-            string[] temp = Spliter(code);
-            Stack<Category> stack = new Stack<Category>();
-            while(stack.Count() == 0)
-            {
-                foreach (var items in categories.Values)
-                {
-
-                }
-            }
-            
-            
-            return result;
-        }
-        
-        public string[] Spliter(string code)
-        {
-            char[] delimiterChars = { '-' };
-            string[] levels = code.Split(delimiterChars);
-            return levels;
-        }
-
-        public Category Find(string[] temp , int index ,  Dictionary<string ,Category> category)
-        {
-
-            if (index == temp.Length - 1) return category.TryGetValue().;
+            if(Categories ==  null) return null;
             else
             {
-                foreach (var cate in category.children.Values) 
+                foreach(var category in Categories.Values)
                 {
-                    if (cate.code.Equals(temp[index]))
-                    {
-                        Find(temp, index++, cate);
-                    }
+                    result = DFS(category, searchData);
+                }
+            }
+            return result;
+        }
+
+        private Category DFS(Category Category, string searchData)
+        {
+            if (Category.code.Equals(searchData))
+            {
+                return Category;
+            }
+
+            foreach (var child in Category.children.Values)
+            {
+                var result = DFS(child , searchData);
+                if (result != null)
+                {
+                    return result;
                 }
             }
             return null;
-
         }
+
     }
 }
