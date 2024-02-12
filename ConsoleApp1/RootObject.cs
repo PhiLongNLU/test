@@ -46,5 +46,45 @@ namespace ConsoleApp1
             return null;
         }
 
+        public List<Category> GetCategory(int level)
+        {
+            List<Category> result = new List<Category>();
+            foreach(var category in this.Categories.Values)
+            {
+                result.AddRange(GetCategory(category, level));
+            }
+            return result;
+        }
+
+        private List<Category> GetCategory(Category Category, int level)
+        {
+            List<Category> categories = new List<Category>();
+            if (islevel(Category, level))
+            {
+                categories.Add(Category);
+            }
+            if (Category.children != null)
+            {
+                foreach (var child in Category.children.Values)
+                {
+                    var result = GetCategory(child, level);
+                    if (result != null)
+                    {
+                        categories.AddRange(result);
+                    }
+                }
+            }
+            return categories;
+        }
+
+        public bool islevel(Category category , int level)
+        {
+            if(category == null) return false;
+            if(category.level == level) return true;
+            return false;
+        }
+
+        
+
     }
 }

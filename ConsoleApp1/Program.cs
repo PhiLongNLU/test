@@ -26,7 +26,9 @@ namespace ConsoleApp1
             RootObject deserialize = JsonConvert.DeserializeObject<RootObject>(text);
 
             // Convert object to JSON
-            Console.WriteLine(deserialize.Search("1-20-1-").toString());
+            Category cate = deserialize.Search("1-20-1-");
+            Console.WriteLine(deserialize.islevel(cate, 3));
+            Console.WriteLine(deserialize.GetCategory(2));
             // list<data>
 
             /* Student student = new Student();
